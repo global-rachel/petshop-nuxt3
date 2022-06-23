@@ -1,0 +1,38 @@
+$headerHeight: 80px;
+$sideNavWidth: 260px;
+$lightGreen: #D0E8DD;
+
+
+body {
+  font-family: 'Roboto';
+}
+
+.transition {
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+
+:export {
+  headerHeight: $headerHeight;
+  sideNavWidth: $sideNavWidth;
+}

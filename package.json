@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@pinia/nuxt": "^0.1.9",
+    "mdi": "^2.2.43",
+    "pinia": "^2.0.14",
+    "roboto-fontface": "*",
+    "sass": "^1.52.3",
+    "vue": "^3.2.37",
+    "vuetify": "^3.0.0-beta.4",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.4",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  }
+}
