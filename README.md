@@ -1,3 +1,15 @@
+## About this project
+Petshop project set up with Vue3, Nuxt3, Pinia and Vuetify3.
+
+
+### Checkout these folders:
+
+- components: components used in pages
+- layouts: Layouts used in pages
+- pages: Nuxt feature, file name is the name of the route
+- store: shared states used with Pinia
+- assets: scss, images and reusable js scripts
+
 ## Features
 ### Basic Login & Logout
 
