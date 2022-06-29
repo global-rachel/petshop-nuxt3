@@ -25,7 +25,7 @@ Petshop project set up with Vue3, Nuxt3, Pinia and Vuetify3.
 - Import Components
 - Props & emits
 - Router
-- Export function to be used like mixin (common.js --> just for demo)
+- Export function to be used like mixin (common.ts --> just for demo)
 
 ### Nuxt3:
 - Layout & pages
