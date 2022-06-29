@@ -11,9 +11,9 @@
   >
     <div class="flex flex-column">
       <div>
-        <img src="../assets/img/logo.svg" alt="" />
+        <img src="../assets/img/logo.svg" alt=""/>
       </div>
-      <div><img src="../assets/img/logo-text.svg" alt="" /></div>
+      <div><img src="../assets/img/logo-text.svg" alt=""/></div>
     </div>
   </v-btn>
 </template>

@@ -71,8 +71,8 @@ const form: LoginForm = reactive({
   email: null,
   password: null,
 });
-const msg = ref<string>("");
-const snackbar = ref<boolean>(false);
+const msg = ref("");
+const snackbar = ref(false);
 
 async function login(): Promise<void> {
   if (!(form.email || "").match(/.+@.+/) || !form.password) {

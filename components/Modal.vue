@@ -28,7 +28,7 @@ defineProps<{
 
 const emit = defineEmits(['closeModal']);
 
-function closeModal() {
+function closeModal():void {
   emit("closeModal");
 }
 

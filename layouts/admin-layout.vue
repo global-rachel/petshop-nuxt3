@@ -11,12 +11,12 @@
 </template>
 
 <script lang="ts" setup>
-import {Header} from '#components';
+import {Header, Login} from '#components';
+import {useIndexStore} from '~/store';
 
-import {useIndexStore} from '../store/index';
 const indexStore = useIndexStore();
 
-function login() {
+function login(): void {
   indexStore.setLoginModalOpen(true);
 }
 
