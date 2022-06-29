@@ -17,8 +17,13 @@
   </div>
 </template>
 <script lang="ts" setup>
+import {BreadCrumb} from '~/types/types';
+
 defineProps<{
-  items: []
+  items: {
+    type: Array<BreadCrumb>,
+    default: []
+  }
 }>()
 
 </script>
