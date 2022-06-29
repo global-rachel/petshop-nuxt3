@@ -1,5 +1,6 @@
 ## About this project
-Petshop project set up with Vue3, Nuxt3, Pinia and Vuetify3.
+Petshop project is a fake petshop e-commerce website with admin login features.
+It is set up with Vue3, Nuxt3, Pinia and Vuetify3.
 
 
 ### Checkout these folders:

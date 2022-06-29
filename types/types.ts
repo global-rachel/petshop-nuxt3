@@ -14,3 +14,9 @@ export type LoginForm = {
     password: string | null,
     email: string | null
 };
+
+export type LoginRes = {
+    data: {
+        token: string
+    }
+};
