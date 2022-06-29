@@ -55,28 +55,26 @@
 
 <script lang="ts" setup>
 import {Modal, Logo} from '#components';
-import {ref, reactive} from "vue";
-import {useIndexStore} from '../store/index';
+import {ref, reactive} from 'vue';
+import {useIndexStore} from '~/store';
 import {useRouter} from "#app";
-import commonFunction from "assets/scripts/common";
+import commonFunction from 'assets/scripts/common';
+import {LoginForm} from '~/types/types';
 
-const { capitalizeString } = commonFunction();
-
+const {capitalizeString} = commonFunction();
 const indexStore = useIndexStore();
 const router = useRouter();
-
 const isLoading = ref(false);
 
-
 //Login form
-const form = reactive({
+const form: LoginForm = reactive({
   email: null,
   password: null,
 });
-const msg = ref("");
-const snackbar = ref(false);
+const msg = ref<string>("");
+const snackbar = ref<boolean>(false);
 
-async function login() {
+async function login(): Promise<void> {
   if (!(form.email || "").match(/.+@.+/) || !form.password) {
     return;
   }
@@ -99,11 +97,11 @@ async function login() {
     //   this.msg = error.response?.data?.error;
     // }
   }
-}
+};
 
-function closeModal() {
+function closeModal(): void {
   indexStore.setLoginModalOpen(false);
-}
+};
 
 </script>
 

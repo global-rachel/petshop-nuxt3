@@ -1,11 +1,16 @@
 export type BreadCrumb = {
-    text: String,
+    text: string,
     disabled: Boolean,
-    href: String
+    href: string
 };
 
 export type Link = {
-    name: String,
-    url: String,
+    name: string,
+    url: string,
     sublinks?: Array<Object>
+};
+
+export type LoginForm = {
+    password: string | null,
+    email: string | null
 };
