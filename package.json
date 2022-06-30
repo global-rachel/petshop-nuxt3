@@ -3,6 +3,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "test:unit": "vitest --coverage",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
@@ -18,8 +19,16 @@
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.4-27605536.8c2c80e",
+    "@pinia/testing": "^0.0.12",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/test-utils": "^2.0.1",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.11",
+    "c8": "^7.11.3",
+    "jsdom": "^20.0.0",
     "nuxt": "3.0.0-rc.4",
     "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vitest": "^0.16.0",
     "vue-cli-plugin-vuetify": "~2.5.1",
     "webpack-plugin-vuetify": "^2.0.0-alpha.0"
   }
